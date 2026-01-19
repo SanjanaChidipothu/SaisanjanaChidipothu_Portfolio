@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>SaisanjanaChidipothu Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a>My Portfolio</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Experience</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#feedback">Certifications</a></li>
+        </ul>
+        <button onclick=" location.href='contactme.html'">Contact Me</button>
+        <button id="menuButton">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h2>Hey there, I am Saisanjana Chidipothu</h2>
+            <h3>Get to know me. I turn data into meaningful insights.</h3>
+            <p>
+                I'm a Data Analyst with 4+ years of experience in Python, SQL, BI reporting (Power BI/Tableau),
+                and cloud-based analytics (AWS & Azure), building automated pipelines and decision-ready dashboards.
+            </p>
+            <button onclick=" location.href='form.html'">Get In Touch</button>
+        </div>
+        <div class="right">
+            <div class="card">
+                <img src="assets/header-img.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img.jpeg">
+        </div>
+        <div class="right">
+            <h3>About Me</h3>
+            <p>
+                Hello! I'm Saisanjana Chidipothu, a Data Analyst based in <b>McLean, VA</b>.
+                I specialize in end-to-end analytics—data extraction, transformation, statistical analysis,
+                and dashboarding—to support high-impact business and public-sector decisions.
+            </p>
+            <p>
+                I’ve built automated ETL workflows and reporting ecosystems using Python, SQL, and tools like
+                AWS Glue, IBM DataStage, and Power Query. I also create stakeholder-friendly BI solutions in Power BI
+                and Tableau, with a focus on data accuracy, governance, and measurable KPI visibility.
+                I hold an M.S. in Computer Science from <b>George Mason University</b>.
+            </p>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Projects</h5>
+                <h3>My Projects</h3>
+            </div>
+            <!-- If you have a GitHub link, replace the href below -->
+            <button onclick="location.href='https://github.com/SanjanaChidipothu'" style="color: whitesmoke; background-color: black">
+                <i class='bx bxl-github'></i> GitHub
+            </button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/ss-1.png">
+                <div class="info">
+                    <h4>Sales Insights Dashboard</h4>
+                    <p>
+                        Built an end-to-end Sales Insights dashboard using SQL and Power BI to analyze transactional sales data across regions, product categories, and customer segments. Derived actionable insights including regional revenue performance, seasonal sales trends, high-margin vs low-margin products, and customer profitability to support data-driven business decisions.
+                    </p>
+                    <p><b>SKILLS:</b> <i>SQL, Power BI, Data Modeling, ETL, Data Cleaning, KPI Analysis, Revenue & Profit Analysis, Time Series Analysis, Dashboard Design, Business Intelligence</i></p>
+                    <a href="#">GitHub / Demo Link <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/emotions.png">
+                <div class="info">
+                    <h4>Facial Emotion Recognition</h4>
+                    <p>
+                        Developed a deep learning–based facial emotion recognition system using the FER2013 dataset, comparing multiple CNN architectures and achieving 71% accuracy with a custom Conv2D model. Implemented real-time emotion detection using OpenCV.
+                    </p>
+                    <p>
+                    <b>SKILLS:</b>
+                    <i>Python, Deep Learning, Convolutional Neural Networks (CNN), TensorFlow, Keras, OpenCV, Image Preprocessing, Data Augmentation, FER2013 Dataset, Real-Time Computer Vision</i>
+                    </p>
+                    <a href="https://github.com/SanjanaChidipothu/FacialEmotionRecognition">GitHub / Demo Link <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/sc-33.jpeg">
+                <div class="info">
+                    <h4>Flower Classification</h4>
+                    <p>
+                        Performed unsupervised clustering on a Kaggle flower image dataset by applying image preprocessing, dimensionality reduction, and clustering techniques. The analysis revealed three distinct clusters corresponding to peonies, lilies, and chrysanthemums.
+                    </p>
+                    <p><b>SKILLS:</b> <i>Python, Image Preprocessing, Dimensionality Reduction (PCA), Unsupervised Learning, K-Means Clustering, NumPy, OpenCV</i></p>
+                    <a href="https://github.com/SanjanaChidipothu/FlowerDetection">GitHub / Demo Link <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+              <div class="item">
+                <img src="assets/doorbellimg.png">
+                <div class="info">
+                    <h4>Safe Untouched Doorbell</h4>
+                    <p>
+                        Designed and implemented a contactless IoT doorbell system using the Bolt IoT platform, where an LDR sensor detects light intensity changes to trigger a buzzer without physical interaction. Integrated cloud-based monitoring and SMS notifications via Twilio to provide real-time visitor alerts.
+                    </p>
+                    <p><b>SKILLS:</b> <i>IoT Systems, Bolt IoT Platform, LDR Sensor, Embedded Systems, Analog Sensor Data Processing, Cloud Integration, SMS Alerts (Twilio), Hardware Prototyping</i></p>
+
+                    <a href="https://github.com/SanjanaChidipothu/SmartUntouchedDoorbell">GitHub / Demo Link <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/ss-4.png">
+                <div class="info">
+                    <h4>Breast Cancer Detection</h4>
+                    <p>
+                        Performed breast cancer detection using a Kaggle dataset by applying clustering techniques. Determined the optimal number of clusters using the elbow method, classified the data into four clusters, and analyzed their centroids.
+                    </p>
+                    <p><b>SKILLS:</b> <i>K-Means Clustering, Python, Scatter Plot Visualization, Sum of Squared Errors (SSE), Elbow Method, NumPy, Pandas, Matplotlib</i></p>
+                    <a href="https://github.com/SanjanaChidipothu/BreastCancer">GitHub / Demo Link <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+    <h5>My Experience</h5>
+    <h3>Professional Journey</h3>
+
+    <div class="skill-items">
+
+        <div class="item">
+            <div class="icon"><i class='bx bx-bar-chart-alt-2'></i></div>
+            <h4>Cortracker360 — Data Analyst (Aug 2025 – Present)</h4>
+            <p>
+                Built end-to-end analytics by integrating operational, customer, and transactional datasets using Python, SQL,
+                and AWS Glue. Automated reporting workflows and delivered Power BI dashboards for KPI tracking and leadership insights.
+            </p>
+            <p><b>Tools:</b> <i>Python, SQL, AWS Glue, Power BI, Advanced Excel, Data Validation, EDA</i></p>
+        </div>
+
+        <div class="item">
+            <div class="icon"><i class='bx bx-buildings'></i></div>
+            <h4>U.S. Small Business Administration — Data Analyst (Jun 2024 – Aug 2025)</h4>
+            <p>
+                Modernized federal reporting by converting Excel/PDF workflows into SQL-powered datasets and Power BI dashboards.
+                Standardized KPI logic, built ETL pipelines, and delivered forecasting and variance analysis for program oversight.
+            </p>
+            <p><b>Tools:</b> <i>SQL, Python, Power BI, Power Query, Forecasting, Variance Analysis, Data Governance</i></p>
+        </div>
+
+        <div class="item">
+            <div class="icon"><i class='bx bxs-graduation'></i></div>
+            <h4>George Mason University — Program Analyst (Sep 2022 – May 2024)</h4>
+            <p>
+                Developed standardized reporting templates, automated dashboards, and analytics workflows using Python, SQL, and Excel.
+                Supported ERP reporting, reconciliation, documentation, and ad hoc analysis for academic and operational performance.
+            </p>
+            <p><b>Tools:</b> <i>Python, SQL, Excel, ERP Reporting, Reconciliation, KPI Tracking, Documentation</i></p>
+        </div>
+
+        <div class="item">
+            <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+            <h4>Deloitte — Data Analyst Intern (Jan 2021 – Jul 2022)</h4>
+            <p>
+                Analyzed 7.4M+ credit profiles, built ETL workflows using Airflow into Snowflake, and developed risk scoring models.
+                Created Power BI KPI dashboards, performed profiling/feature reduction, and supported audit-ready reporting.
+            </p>
+            <p><b>Tools:</b> <i>Snowflake, SQL Server, Apache Airflow, Power BI, Azure, TensorFlow, A/B Testing</i></p>
+        </div>
+
+        <div class="item">
+            <div class="icon"><i class='bx bx-bug'></i></div>
+            <h4>MyCollegeKonnect — Data & QA Analyst Intern (May 2020 – Dec 2020)</h4>
+            <p>
+                Analyzed app usage and quality data to detect defects and performance trends. Built tracking dashboards,
+                validated analytics event consistency, and supported UAT/regression testing for stable releases.
+            </p>
+            <p><b>Tools:</b> <i>Excel, SQL, QA Analytics, UAT, Regression Testing, Dashboards, Data Quality</i></p>
+        </div>
+
+    </div>
+</div>
+
+
+    <div class="feedback" id="feedback">
+        <h5>My Certifications</h5>
+        <h3>Technical Certifications</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <h5>Microsoft Certified: Power BI Data Analyst Associate (2025)</h5>
+                </div>
+                <p>
+                    Validates advanced Power BI skills including data modeling, DAX, dashboarding, and delivering
+                    stakeholder-ready reporting solutions.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>AWS Certified: Cloud Practitioner (2024)</h5>
+                </div>
+                <p>
+                    Demonstrates foundational AWS knowledge across core services, billing, security concepts,
+                    and cloud best practices.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>CompTIA Data+ (2025)</h5>
+                </div>
+                <p>
+                    Confirms data analytics fundamentals including data preparation, analysis, visualization,
+                    governance, and quality practices.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>IBM Data Science Professional (2024)</h5>
+                </div>
+                <p>
+                    Covers end-to-end data science workflows including Python-based analysis, modeling,
+                    and applied analytics practices.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>Oracle Certified: Data Platform Foundations Associate (2025)</h5>
+                </div>
+                <p>
+                    Validates understanding of data platform fundamentals, modern data concepts, and Oracle ecosystem basics.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>Oracle Certified: OCI Foundations Associate (2025)</h5>
+                </div>
+                <p>
+                    Confirms OCI cloud fundamentals including compute, storage, networking, and security concepts.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="rating">
+                    <h5>Scrum Alliance: Certified Scrum Master (2024)</h5>
+                </div>
+                <p>
+                    Demonstrates practical Agile/Scrum knowledge for delivering analytics and engineering work in iterative teams.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <a href="index.html">Saisanjana Chidipothu</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="contactme.html">Contact</a></li>
+                <!-- Replace with your links if you have them -->
+                <!-- <li><a href="#">Youtube</a></li> -->
+                <li><a href="#portfolio">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sanjanachidipothu"><i class='bx bxl-linkedin-square'></i></a>
+                <!-- <a href="#"><i class='bx bxl-instagram'></i></a> -->
+                <a href="https://github.com/SanjanaChidipothu"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
